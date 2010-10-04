@@ -1,0 +1,23 @@
+body {
+  background: #c0c0c0; 
+  width: 403px;
+  font-family: helvetica;
+}
+
+canvas {
+  border: solid 1px #000; 
+  background-color: #555;
+}
+#logo {
+  text-transform: capitalize;
+  font-size: 1.4em;
+  display: inline;
+}
+#score_container {
+  float: right;
+  display: inline;
+}
+
+#pause_menu, #restart_menu {
+  display: none;
+}
