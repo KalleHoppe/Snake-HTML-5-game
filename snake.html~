@@ -34,17 +34,6 @@
         <input type="TEXT" id='initials' />
         <input type="submit" id='save' title="Save" value="Save"></input>
       </form>
-      <h2>New features:</h2>
-      <ul>
-        <li>The walls will kill you</li>
-        <li>Snake speed will increase with higher score</li>
-      </ul>
-      <h2>Upcomming features:</h2>
-      <ul>
-        <li>Saving personal score so you can beat your firends.</li>
-        <li>New levels when reaching level score.</li>
-        <li>Time bonus per level when compleating level.</li>
-      </ul>
     </div>
     <div id='ScoreContainer'>
       <table id='ScoreTable'>

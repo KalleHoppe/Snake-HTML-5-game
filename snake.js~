@@ -155,7 +155,7 @@ var score = {
   save:function(){
     var cookie = cookie.getScoreCookie();
     if(cookie == 'undefined'){
-      cookie.setScoreCookie();
+      cookieName.setScoreCookie();
     }
   },
 
