@@ -21,8 +21,8 @@ function checkSupported() {
 
 $(document).ready(function () {
   $("#save")
-    .unbind("click")
-    .bind("click", function (e) {
+    .off("click")
+    .on("click", function (e) {
       e.preventDefault();
 
       playerName = $("#initials").val();
